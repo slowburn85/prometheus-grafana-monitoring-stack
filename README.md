@@ -96,8 +96,6 @@ To start Prometheus,change to the directory containing the Prometheus binary and
 ```
 This starts a Prometheus server with the configuration in prometheus.yml. By default, the server will be available at http://localhost:9090.
 
-![alt text](images/sec-rules.png)
-
 ![alt text](images/http-server.png)
 
 ## Prometheus expression browser
