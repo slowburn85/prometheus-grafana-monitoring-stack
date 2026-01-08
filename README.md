@@ -158,6 +158,29 @@ chmod +x node_exporter
 ./node_exporter
 ```
 
+## AWS EC2 Security Group Configuration
+
+To make your monitoring stack accessible from external sources, configure your EC2 security group with the following inbound rules:
+
+**Required Security Group Rules:**
+
+![alt text](images/alle-sec-rules.png)
+
+**Security Best Practices:**
+- Restrict source IPs to your specific IP address instead of 0.0.0.0/0 for production environments
+- Use VPC security groups for internal communication between services
+- Consider using AWS Systems Manager Session Manager instead of SSH for enhanced security
+- Enable HTTPS/TLS for production deployments
+
+**AWS CLI/Console Configuration Example:**[Prefrence]
+```bash
+# Add security group rules via AWS CLI
+aws ec2 authorize-security-group-ingress --group-id sg-xxxxxxxxx --protocol tcp --port 22 --cidr 0.0.0.0/0
+aws ec2 authorize-security-group-ingress --group-id sg-xxxxxxxxx --protocol tcp --port 9090 --cidr 0.0.0.0/0
+aws ec2 authorize-security-group-ingress --group-id sg-xxxxxxxxx --protocol tcp --port 9100 --cidr 0.0.0.0/0
+aws ec2 authorize-security-group-ingress --group-id sg-xxxxxxxxx --protocol tcp --port 3000 --cidr 0.0.0.0/0
+```
+
 ![alt text](images/node_exporter.png)
 
 Node Exporter is now running and exposing metrics on port http://16.28.47.88:9100/meterics
